@@ -1,3 +1,155 @@
-.myDiv{
-  
+@import url(https://fonts.googleapis.com/css?family=Alfa+Slab+One);
+
+a {
+  text-decoration:none !important;
+}
+
+body {
+   background-color:#303D45;
+  width:100%;
+}
+
+main {
+  margin:auto;
+  width:80%;
+  background-color:black;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-family:'Alfa Slab One', sans-serif;
+
+}
+
+nav {
+  position:fixed;
+  z-index:1000;
+  background-color:#2D6385;
+  width:100%;
+  height:100px;
+  color:white !important;
+  padding:15px 5% 15px 10%;
+}
+
+nav a {
+    color:white !important;
+}
+
+nav a:hover{
+  color:yellow !important;
+}
+
+nav ul{
+  float:right;
+  list-style-type:none;
+  margin-right:10%;
+  margin-top:20px;
+}
+
+nav ul li {
+  display:inline;
+  padding-right:20px;
+}
+
+#intro {
+  text-align:center;
+  font-size:larger;
+  padding:150px 20px 40px 20px;
+  width:90%;
+  margin:0px auto !important;
+  background-color:black;
+  background-image: url('http://www.planwallpaper.com/static/images/1916561.jpg');
+  background-position: left top;
+  background-repeat: no-repeat;
+  line-height:200%;
+
+}
+
+#intro h1 {
+  color:#303D45;
+  padding:10px 0;
+}
+
+.titleHolder {
+  height:60px;
+  background-color:yellow;
+  margin:20px auto;
+}
+
+.tagline {
+  color:yellow;
+  font-size:20px;
+  font-weight:600;
+}
+
+#about {
+  background-color: black;
+  padding:20px 40px 20px 40px;
+  text-align:center;
+  width:90%;
+  margin:0px auto !important;
+}
+
+#about h2 {
+  color:white;
+  letter-spacing: 2px;
+}
+
+.second {
+  padding:75px;
+  color:white !important;
+}
+
+.imageRow {
+  padding:0px 50px 0px 50px;
+  margin-top:20px;
+}
+
+.imageRow img {
+  border-radius:150px;
+}
+
+.imageRow figcaption {
+  height:40px;
+  background-color:yellow;
+  font-size:20px;
+  text-transform: uppercase;
+  width:70%;
+  margin: 10px auto 20px auto;
+  padding-top: 5px;
+}
+
+hr.hrStyle1 {
+	border-top: 4px dotted white;
+}
+
+#facts {
+  font-size:larger;
+  padding:20px 100px 20px 100px;
+  width:90%;
+  margin:0px auto !important;
+  background-color:#95ae9a;
+  background-image:url('img/blueWatercolor.jpg');
+}
+
+#facts figcaption {
+  height:40px;
+  text-align:center;
+  background-color:yellow;
+  font-size:20px;
+  text-transform: uppercase;
+  margin: 10px auto 20px auto;
+  padding-top: 5px;
+}
+
+footer {
+  background-color:black;
+  width:100%;
+  height:50px;
+  color:white !important;
+  padding:10px 100px 5px 100px;
+}
+
+footer img {
+  margin-left:10px;
+  width:30px;
 }
