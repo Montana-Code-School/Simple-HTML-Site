@@ -1,51 +1,37 @@
-# Our First Demo Site
+## Welcome to GitHub Pages
 
-This site serves as a simple introduction to HTML, CSS, and you can feel free to use it as a starting point for your simple HTML, CSS, and JS websites. Make the site your introduction, fill it
-with pictures, facts, a bio, etc.
+You can use the [editor on GitHub](https://github.com/AcademicPilot/test-website/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
----
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-## Standards
+### Markdown
 
-### File Structure
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-You will always want to keep all of your files organized properly. I would recommend you follow this structure while we work on basic projects. You can feel free to name the files and the project root as whatever you would like, but keep this structure:
+```markdown
+Syntax highlighted code block
 
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
 ```
-My-Project-Folder (folder)
 
-  img (folder)
-    myImage.jpg
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-  css (folder)
-    style.css
+### Jekyll Themes
 
-  js (folder)
-    main.js
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AcademicPilot/test-website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-  index.html
+### Support or Contact
 
-```
-
-"My-Project-Folder" is considered **the root project folder**, which is a term you will see often (I.E Navigate to your project root).
-
-### Spaces vs Dashes
-
-Along with this, I would like to see you all use dashes in folder and filenames, in place of
-spaces. Spaces don't work as well when you are navigating using the command line. [You can find a great discussion about this over at Jeff Atwood's blog.](https://blog.codinghorror.com/of-spaces-underscores-and-dashes/)
-
-(You should bookmark this blog, he is a great blogger, and co-founder of [Stack Overflow](http://stackoverflow.com))
-
-### Previewing your Site
-
-You can preview your site by dragging the html file into your browser, or right-clicking on it and selecting "Open With Chrome".
-
----
-
-## Resources
-
-Some resources that will be helpful as you work on your introduction website.
-
-* [W3Schools](https://www.w3schools.com)
-* [Stack Overflow](http://stackoverflow.com)
-* [CSS Tricks](https://css-tricks.com)
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
