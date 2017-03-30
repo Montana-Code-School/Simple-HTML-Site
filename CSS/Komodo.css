@@ -1,0 +1,105 @@
+.dropbtn {
+    color: white;
+    padding: 16px;
+    cursor: pointer;
+
+    background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,rgba(010,196,209,0.65) 50%,rgba(0,0,99,0.65) 100%);
+  	border-radius: 2px;
+  	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 16px 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: box-shadow 1s ease;
+  	transition: box-shadow 1s ease;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+body {
+  background-color: azure;
+	font-family: 'Raleway', sans-serif;
+  text-align: center;
+  }
+
+h1, h2, h3 {
+  color: black;
+  font-family: fantasy;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 32px;
+  }
+
+h3 {
+  font-size: 25px;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+a.btn {
+	background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,rgba(010,196,209,0.65) 50%,rgba(0,0,99,0.65) 100%);
+	border-radius: 2px;
+	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 16px 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: box-shadow 1s ease;
+	transition: box-shadow 1s ease;
+}
+
+a.btn:hover {
+	box-shadow: 0px 4px 4px rgba(34,62,66,.5);
+	-webkit-transition: box-shadow 1s ease;
+	transition: box-shadow 1s ease;
+}
+
+.img-wrap:hover img {
+    transform:scale(0.75);
+}
+.img-wrap img {
+    display:inline-grid;
+    transition: all 0.5s ease 0.25s;
+    width: 75%;
+}
