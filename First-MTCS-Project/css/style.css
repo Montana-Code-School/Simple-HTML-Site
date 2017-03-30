@@ -1,0 +1,113 @@
+<!DOCTYPE CSS>
+*{
+  font-family: "Amatic SC Regular", cursive;
+}
+html {
+  height: auto;
+}
+body {
+  background-image: url("../img/feathers.png");
+  background-repeat: repeat;
+  width: 100%;
+}
+main {
+  margin: auto;
+  width: 90%;
+}
+td {
+  background-color: #E1692B;
+  opacity: .75;
+  border: 1 px solid;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold;
+}
+th {
+  font-size: 22px;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+h2, h3, h4, h5, h6, h7, h8, h9 {
+  font-color: rgb(0,0,0);
+  font-size:24px;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+h1, .title {
+  position: fixed;
+  z-index: 100;
+  background-color: #F98B61;
+  text-align: center;
+  margin: auto;
+  font-family: 'Rock Salt', cursive;
+  width: 100%;
+  font-size: 20px;
+}
+.intro {
+  background-color: #F98B61;
+  padding: 10px;
+  opacity: .75;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+}
+.photos {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.hobbies {
+  background-color: #C6645D;
+  padding: 10px;
+  opacity: .75;
+  width: 50%;
+  margin: auto;
+  font-family: 'Josefin Slab', serif;
+}
+.columns {
+  margin: auto;
+  width: 100%;
+}
+.column1of2 {
+  background-color: #CE9490;
+  padding: 10px;
+  opacity: .75;
+  width: 35%;
+  height: auto;
+  float: left;
+  margin: 6%;
+  font-family: 'Josefin Slab', serif;
+}
+.column2of2 {
+  background-color: #EA7362;
+  padding: 10px;
+  opacity: .75;
+  width: 25%;
+  height: 20%;
+  float: left;
+  margin: 3%;
+  font-family: 'Josefin Slab', serif;
+}
+}
+.schedule {
+  width:95%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+}
+.contact {
+  background-color: #FA9449;
+  padding: 10px;
+  opacity: .75;
+  width:80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 25px;
+  font-family: 'Josefin Slab', serif;
+}
