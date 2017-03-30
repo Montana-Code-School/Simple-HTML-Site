@@ -1,23 +1,12 @@
-body{
-  color:orange;
+H1 {
+color: white; background: teal; FONT-FAMILY: arial, helvetica, lucida-sans, sans-serif; FONT-SIZE: 30pt; FONT-STYLE: normal; FONT-VARIANT: normal
 }
 
-.myDiv-1{
-  background-color:red;
+
+body {
+COLOR: #000000; FONT-FAMILY: lucida-sans, sans-serif; FONT-SIZE: 22pt; FONT-STYLE: normal; FONT-VARIANT: normal; background-image: url('bkgnd.gif')
 }
 
-.myDiv-1 h1{
-
-}
-
-.myDiv-1 p{
-
-}
-
-.myDiv-2{
-  background-color:green;
-}
-
-.myDiv-2 h2{
-
+.locallink {
+COLOR: #dddddd; FONT-FAMILY: geneva, arial, helvetica, lucida-sans, sans-serif; FONT-SIZE: 13px; FONT-WEIGHT: normal; TEXT-DECORATION: none
 }
