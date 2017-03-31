@@ -1,3 +1,74 @@
-.myDiv{
-  
+<!DOCTYPE CSS>
+html {
+  height: auto;
+}
+body {
+  background-image: url("../img/pink dust.png");
+  background-repeat: repeat;
+}
+td {
+  background-color: #E1692B;
+  opacity: .75;
+  border: 1 px solid;
+  font-size: 15px;
+  text-align: center;
+}
+th {
+  font-size: 15px;
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6, h7, h8, h9 {
+  font-color: rgb(0,0,0);
+  font-size:16px;
+  font-style: oblique;
+  font-family: serif;
+  font-weight: bold;
+  text-align: center;
+}
+.intro {
+  background-color: #F98B61;
+  padding: 10px;
+  opacity: .75;
+  width: 80%;
+  margin: auto;
+}
+.hobbies {
+  background-color: #C6645D;
+  padding: 10px;
+  opacity: .75;
+  width: 50%;
+  margin: auto;
+}
+.column1of2, .column2of2 {
+  background-color: #CE9490;
+  padding: 10px;
+  opacity: .75;
+  width: 30%;
+  height: auto;
+  float: left;
+  margin: 10%;
+}
+}
+.column1of3, .column2of3, .column3of3 {
+  background-color: #EA7362;
+  padding: 10px;
+  width: 25%;
+  height: 300px;
+  float: left;
+  margin: auto;
+}
+}
+.schedule {
+  padding: 10px;
+  width:95%;
+  margin: auto;
+  text-align: center;
+}
+.contact {
+  background-color: #FA9449;
+  padding: 10px;
+  opacity: .75;
+  width:80%;
+  text-align: center;
+  margin: auto;
 }
