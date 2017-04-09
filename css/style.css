@@ -1,3 +1,142 @@
-.myDiv{
-  
+body {
+background-color: #5b9aa0;
+width: 100%;
+}
+
+main {
+  width: 100%;
+    text-align: center;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    -webkit-transition: height 2s; /* Safari */
+    transition: height 2s;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    height: 200px; 
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  font-family: 'Fascinate Inline', cursive;
+  font-size: 2.5em;
+
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25em;
+  text-align:left;
+}
+
+p.center {
+  text-align: center;
+
+}
+
+h2 {
+  font-family: 'Fascinate Inline', cursive;
+  font-size: 1.75em;
+  text-align: center;
+
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: "strong";
+
+}
+
+ul {
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25em;
+}
+
+li {
+
+font-family: 'Roboto', sans-serif;
+font-size:1em;
+text-align: left;
+}
+
+#header {
+  height: auto;
+  padding: 20px;
+ margin: auto;
+ width: 60%;
+}
+
+#middlebox {
+  margin: auto;
+  width: 80%;
+  height: auto;
+  padding: 20px;
+}
+
+#bottombox {
+  margin: auto;
+  width: 40%;
+  height: auto;
+  padding: 20px;
+
+}
+
+.boxStyle {
+  padding: 50px;
+  margin: 10px;
+  border: 10px;
+  border-style: groove;
+  border-color: #622569;
+  background-color: #d6d4e0;
+}
+
+.imgStyle {
+  margin: auto;
+  width: 70%;
+}
+
+.captionStyle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+.button {
+  background-color: #b8a9c9;
+  border: none;
+  color: #d6d4e0;
+  text-decoration-color: #622569;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
 }
