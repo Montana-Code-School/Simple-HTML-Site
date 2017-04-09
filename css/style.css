@@ -8,6 +8,38 @@ main {
     text-align: center;
 }
 
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    -webkit-transition: height 2s; /* Safari */
+    transition: height 2s;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    height: 200px; 
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
 h1 {
   position: relative;
   text-align: center;
@@ -38,6 +70,8 @@ h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
   text-align: center;
+  font-weight: "strong";
+
 }
 
 ul {
@@ -104,4 +138,5 @@ text-align: left;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+
 }
