@@ -1,0 +1,154 @@
+
+
+.tablecloth {
+  background-color:white;
+  background-image: linear-gradient(90deg, rgba(200,0,0,.5) 50%, transparent 50%),
+  linear-gradient(rgba(200,0,0,.5) 50%, transparent 50%);
+  background-size:50px 50px;
+}
+body{
+  text-align: center;
+}
+
+
+p.intro {
+  color:black;
+  text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-style: italic;
+    font-size: 95px;
+
+}
+
+.shadowbox {
+  /*float: right;*/
+  text-align: center;
+
+}
+ul {
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+
+}
+li{
+  flex-direction: row;
+  flex:0 1 auto;
+
+
+
+
+}
+
+
+.familyphotocontainer {
+  margin: 10px auto 10px auto;
+  text-align: center;
+  width: 90%;
+}
+
+.familyimage {
+
+}
+
+h2 {
+  text-align: center;
+  font-size: 55px;
+}
+.bio {
+  display:flex;
+  /*flex-direction: row;*/
+  height:100%;
+  width: 100%;
+  /*align-items: center;*/
+
+
+}
+
+.bekka-img{
+  max-width: 100%;
+   height: auto;
+
+}
+.jon-img{
+  max-width: 100%;
+   height: auto;
+
+}
+.matt-img{
+  max-width: 100%;
+   height: auto;
+
+}
+
+.shadowbox{
+  margin-right: 50px;
+  margin-left: 5px;
+  margin-top: 60px;
+
+}
+.pics {
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+h3 {
+  text-align: center;
+  color:black;
+  font-size: 35px;
+}
+p {font-size: 25px;}black-text{color:#000000;}
+
+.shadowbox{background-color: #eeeeee; color:#666666; text-shadow: 1px 1px 0px #000000;}
+.shadowbox{-moz-box-shadow: 5px 5px 5px #777777; -webkit-box-shadow: 5px 5px 5px #777777; box-shadow:5px 5px 5px #777777;}
+.thick-DarkCyan-border {border-color: DarkCyan; border-width: 10px; border-style: solid; border-radius: 50%;}
+
+
+
+
+ div {
+ background-color:#E4E4AE;
+ height: 100%;
+ width: 100%;
+ text-align: center;
+ margin-bottom: 55px;
+
+ }
+ .sparetime {
+   margin: 10px auto 10px auto;
+   text-align: center;
+   width: 90%;
+ }
+
+
+ .definition{
+   text-align: center;
+ }
+
+ .button {
+    background-color: #BF3F3F;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+ }
+
+.button:hover {
+   background-color: DarkCyan;
+   color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

@@ -1,27 +1,14 @@
-const express = require('express');
+import express from 'express';
+import path from 'path';
+
+
 const app = express();
-
-var port = 3000;
-
+app.use(express.static('public/js'));
 
 
-
-app. use(express.static('public'));
-
-
-app.get('/', function(request, responce){
-  response.sendFile('index.html');
-
+app.get('*',(req, res) =>{
+  res.sendFile(path.resolve('public/index.html', 'public/2index.html'));
 });
 
-app.get('/myURI', function(request, response){
-  response.send('Responding to a GET request!');
 
-});
-
-app.post('/myURI',function(request, response){
-  response.send('Responding to a POST request!');
-
-});
-
-app.listen(port);
+app.listen(process.env.PORT || 3001,()=>console.log("Listening on port 3001"));
