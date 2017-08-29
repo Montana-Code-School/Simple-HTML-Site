@@ -1,0 +1,42 @@
+{
+  "name": "mysite",
+  "version": "1.0.0",
+  "description": "This site serves as a simple introduction to HTML, CSS, and you can feel free to use it as a starting point for your simple HTML, CSS, and JS websites. Make the site your introduction, fill it with pictures, facts, a bio, etc.",
+  "main": "index.js",
+  "scripts": {
+    "dev:client": "webpack--config.webpack.config.client.js--watch",
+    "dev:server": "webpack--config.webpack.config.server.js--watch",
+    "dev:start": "nodemon dist/server.js--watch dist/server.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apriltrull/Simple-HTML-Site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apriltrull/Simple-HTML-Site/issues"
+  },
+  "homepage": "https://github.com/apriltrull/Simple-HTML-Site#readme",
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-latest": "^6.24.1",
+    "browser-router": "^0.2.0",
+    "express": "^4.15.2",
+    "flexbox-react": "^4.4.0",
+    "html-webpack-plugin": "^2.30.1",
+    "morgan": "^1.8.1",
+    "path": "^0.12.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.1.2",
+    "react-router-dom": "^4.1.2",
+    "route": "^0.2.5",
+    "webpack": "^3.5.4",
+    "webpack-combine-loaders": "^2.0.3",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "devDependencies": {}
+}
