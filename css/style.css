@@ -1,3 +1,42 @@
-.myDiv{
-  
+.container {
+  position: relative;
+  height: 100%;
+  border: 3px solid green;
+  background-color: burlywood;
+  margin: 0;
+  padding: 0;
+}
+.myDiv {
+  position: relative;
+  border: 3px solid green;
+}
+.pic {
+  align-items: center;
+  display: block;
+  margin-left: 350px;
+}
+.c1 {
+  height: 50px;
+  position: relative;
+  margin-left: 670px;
+}
+.c2 {
+  height: 20px;
+  margin-left: 60px;
+}
+@media screen and (max-width: 1200px) {
+  .pic {
+    align-items: center;
+    display: block;
+    margin: 10%;
+  }
+  .c1 {
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+  }
+  .c2 {
+    align-items: center;
+    margin: 10% 10%;
+  }
 }
